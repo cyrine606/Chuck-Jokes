@@ -1,0 +1,142 @@
+@font-face {
+    font-family: "Montserrat";
+    src: local("Montserrat-SemiBold"),
+    url("../../assets/fonts/Montserrat-SemiBold.ttf") format("truetype");
+    font-weight: bold;
+}
+    
+  .navbar {
+    background-color: #303030;
+    height: 60px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+  
+  .nav-menu {
+    display: flex;
+    list-style: none;
+    margin-right: 1rem;
+    height: 100%;
+    margin: 20px 64px 21px 341px;
+  }
+  
+  .nav-links {
+    color: #fff;
+    text-decoration: none;
+    width: 158px;
+    height: 19px;
+    font-family: 'Montserrat';
+    font-size: 15px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+  }
+  
+  
+  .nav-item {
+    margin-right: 1rem;
+    text-transform: uppercase;
+    padding: 1.5rem 1rem;
+    cursor: pointer;
+  }
+  
+  .nav-item:hover {
+    background-color: #cfb995;
+  }
+  
+  
+  .nav-item:hover:after {
+    width: 100%;
+    background: #cfb995;
+  }
+  
+
+  .nav-icon {
+    margin-right: 10px;
+  }
+
+  .menu-toggle {
+    margin-left: 10px;
+  }
+  
+
+  .special-item {
+    color: #cfb995 !important;
+    font-weight: bolder !important;
+  }
+
+  @font-face {
+    font-family: "Montserrat-Regular";
+    src: local("Montserrat-Regular"),
+    url("../../assets/fonts/Montserrat-Regular.ttf") format("truetype");
+    font-weight: bold;
+    }
+
+  .dropdown {
+    font-family: "Montserrat-Regular";
+    height: fit-content;
+    width: 190px;
+    background: #fff;
+    text-transform: none;
+    position: absolute;
+    z-index: 1;
+    top: 10%;
+    right: 5%;
+  }
+
+  .dropdown-menu {
+    list-style: none;
+  }
+
+  .dropdown-item {
+    padding: 5px 15px;
+  }
+
+  .dropdown-links {
+    width: 190px;
+    height: 20px;
+    text-decoration: none;
+    color: #5e5e5e;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.43;
+    letter-spacing: normal;
+  }
+
+  .dropdown-divider {
+    width: 90%;
+    color: #b2b2b2 !important;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  @media screen and (max-width: 960px) {
+    .nav-menu {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      border-top: 1pxsolid #fff;
+      position: absolute;
+      top: 80px;
+      left: -110%;
+      opacity: 1;
+      transition: all 0.5s ease;
+    }
+  
+    .nav-item .active {
+      color: #ffdd40;
+      border: none;
+    }
+    .nav-links {
+      padding: 1.5rem;
+      width: 100%;
+      display: table;
+    }
+  
+  }

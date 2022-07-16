@@ -1,0 +1,20 @@
+.footer-bg{
+    background: url("../../assets/images/bitmap_2.png");
+    height: 190px;
+    margin-top: 5%;
+    padding: 50px 200px;
+}
+
+.footer-content {
+    color: #cfb995;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 15px;
+}
+
+.footer-title {
+    color: #fff;
+    width: 250px;
+    font-weight: bold;
+    text-transform: uppercase;
+}

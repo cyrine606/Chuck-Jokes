@@ -1,0 +1,73 @@
+.content {
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(3 ,1fr);
+    gap: 31px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card {
+    padding: 16px;
+    width: 328;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    height: 264px;
+}
+
+.card:hover {
+    box-shadow: rgba(14, 30, 37, 0.105) 0px 2px 10px 0px, rgba(14, 30, 37, 0.084) 0px 2px 10px 0px, rgba(14, 30, 37, 0.084) 0px 2px 10px 0px;
+}
+
+.top-card {
+    width: 206px;
+    display: flex;
+}
+
+.card-title {
+    width: 206px;
+    height: 20px;
+    margin: 0 0 6px 8px;
+    font-family: "Montserrat";
+    font-size: 16px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.25;
+    letter-spacing: normal;
+    color: #303030;
+}
+
+.card-body {
+    width: 328px;
+    height: 154px;
+    margin: 6px 0 32px;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.57;
+    letter-spacing: normal;
+    color: #303030; 
+}
+
+.card-footer {
+    width: 100%;
+    height: 68px;
+}
+
+.details-button {
+    border: none;
+    color: #cfb995;
+    text-transform: uppercase;
+    cursor: pointer;
+    background: none;
+    margin-right: 8px;
+    float: right;
+}
+
+.view-more-button {
+    margin: 100px 0;
+    width: 100%;
+    text-align: center;
+}

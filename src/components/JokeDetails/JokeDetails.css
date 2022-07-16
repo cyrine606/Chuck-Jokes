@@ -1,0 +1,170 @@
+.DetailedJokeContainer {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 730px 250px;
+    grid-column-gap: 50px;
+    align-items: center;
+    justify-content: center;
+    margin: 10% auto;
+}
+
+.joke-card {
+    padding: 16px;
+    width: 328;
+    box-shadow: rgba(100, 100, 111, 0.268) 0px 7px 29px 0px;
+    height: 287px;
+}
+
+.top-card {
+    width: 346px;
+    display: flex;
+}
+
+
+.joke-card-title {
+    width: 346px;
+    height: 60px;
+    margin: 2px 14px 8px 0;
+    font-family: "Montserrat";
+    font-size: 40px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    color: #cfb995;
+}
+
+.joke-card-body {
+    width: 100%;
+    height: 186px;
+    margin: 6px 0 32px;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.57;
+    letter-spacing: normal;
+    color: #303030; 
+}
+
+.top-jokes-title {
+    font-weight: bold;
+    text-transform: uppercase;
+    height: 30px;
+}
+
+.top-jokes {
+    text-decoration: underline;
+    font-size: 11px;
+    margin: 20px 0;
+    color: #303030;
+    cursor: pointer;
+}
+
+.previous-button {
+    position: absolute;
+    top: 65%;
+    left: 16%;
+    background-color: #303030;
+    width: fit-content;
+    height: fit-content;
+    padding: 9px 15px;
+    border-radius: 50%;
+    cursor: pointer;
+    border: none;
+}
+
+.like-button {
+    width: fit-content;
+    height: fit-content;
+    padding: 10px;
+    background: rgb(67, 114, 67);
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.like-button:hover {
+    background: rgb(45, 64, 45);
+}
+
+.dislike-button {
+    width: fit-content;
+    height: fit-content;
+    padding: 10px;
+    background-color: rgb(205, 52, 52);
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.dislike-button:hover {
+    background-color: rgb(160, 65, 65);
+}
+
+.likes-container {
+    width: 15%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 50px;
+}
+
+.btn {
+    text-align: center;
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.button-danger {
+    color: rgb(160, 65, 65);
+}
+
+.button-success {
+    color: rgb(67, 114, 67);
+}
+
+.reaction-section {
+    margin-top: 5%;
+    display: grid;
+    grid-template-columns: 1.4fr 1fr;
+    grid-column-gap: 30px;
+}
+
+.move-button {
+    background: none;
+    border: solid 1px #cfb995;
+    color: #cfb995;
+    font-weight: bold;
+    margin-left: 40px;
+    height: 35px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.arrow-spacing{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.jokes-list {
+    border: solid 1px #b2b2b2;
+    height: 100%;
+    padding: 20px;
+}
+
+.joke-header {
+    display: grid;
+    grid-template-columns: 100px 100px;
+    justify-content: space-between;
+    grid-column-gap: auto;
+    margin: 20px auto;
+}
+
+.nb-likes {
+    justify-content: flex-end;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+    padding-right: 10px;
+}
